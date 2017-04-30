@@ -1,0 +1,197 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*------------ nav bar --------------*/
+.navbar-white{
+        background-color:transparent;
+        color: white;
+        border-bottom: 1px solid grey;
+        height: 65px;
+}
+
+.navbar-white ul li a{
+    color: white;
+    /*font-family: 'Open Sans', sans-serif;*/
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding-top: 18px;
+    padding-right: 5px;
+}\
+ a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/*-------------header--------------*/
+.menu{
+    background-image: url('header.jpg');
+    height: 100vh;
+    color:white;
+    text-align: center;
+}
+
+.menu-text{
+    position: absolute;
+    margin-top: 35%;
+    transform: translateY(-50%);
+}
+
+.menu-text h1{
+    font-weight: bold;
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+
+.menu-text p{
+    font-size: 18px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.btn-coral {
+    color: #fff;
+    background-color: #F05F40;
+    border-color: #F05F40;
+    border-radius: 25px;
+}
+
+/*--------------- get start ----------*/
+.bg-color{
+    background: #F05F40;
+}
+
+.color{
+    color: #F05F40;
+}
+
+.btn-white{
+    color:#000;
+    background-color: white;
+    border-color: white;
+    border-radius: 25px;
+    padding:10px 20px;
+}
+.get-start {
+    text-align: center;
+    color: white;
+    padding: 60px;
+}
+
+.get-text p{
+    font-size: 20px;
+    padding:20px;
+
+}
+/*-------------service--------------*/
+.service{
+    text-align: center;
+    padding:60px;
+}
+
+.service-text{
+    text-align: center;
+    padding-bottom: 80px;
+}
+.service-text p{
+    font-size: 18px;
+    color: grey;
+}
+
+/*-------------project--------------*/
+
+.no_gutter {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.project img{
+    width: 100%;
+}
+
+.box {
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    min-height: 100%;
+    background: rgba(240, 95, 64, 0.7);
+    z-index: 100;
+    display: none;
+}
+
+.box h3 {
+    color: white;
+    margin-top: 0%;
+}
+
+.box p{
+    color: white;
+    margin-top: 15%;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+
+.box:hover .overlay {
+    display: block;
+}
+
+
+/*-------------download--------------*/
+.download{
+    background: #222;
+    text-align:center;
+    color: white;
+    padding-bottom: 40px;
+}
+
+.download h1{
+    padding-top: 60px;
+    padding-bottom: 10px;
+
+}
+
+.btn-white{
+    color: black;
+    background: white;
+    border-radius: 25px;
+}
+
+
+
+/*-------------footer--------------*/
+
+.footer{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footer h2{
+    padding-top: 60px;
+    padding-bottom: 15px;
+    
+}
+
+.footer p{
+    font-size: 20px;
+    padding: 5px 80px 20px 80px;
+}
+
+.footer-2{
+    text-align: center;
+}
+.footer-2 span{
+    font-size: 20px;
+    padding-bottom:80px;
+}
+
+/*--------- media query -----------*/
+
